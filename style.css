@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    align-items: center;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    border: white 2px groove;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-direction: column;
+}
+button{
+    border-radius: 50%;
+    border: none;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.play{
+    margin-top: -5px;
+    height: 60px;
+    width: 60px;
+    background-color: orangered;
+    color: white;
+}
+.buttons{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.hour,.minute,.seconds{
+    margin: 2px;
+    color: white;
+}
+.watch{
+    margin-top: 100px;
+    font-size: 30px;
+    display: flex;
+}
